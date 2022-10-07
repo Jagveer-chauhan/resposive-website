@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ADVENTURE</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="navbar">
+        <h1 class="logo"><a href="#">ADVENTURE</a></h1>
+        <ul class="nav-links">
+            <li class="active"><a href="#">Home</a></li>
+            <li><a href="#events">Events</a></li>
+            <li><a href="#explore">Explore</a></li>
+            <li><a href="#tour">Tours</a></li>
+            <li class="ctn"><a href="https://jagveerchauhan.me/">Contact</a></li>
+        </ul>
+        <img src="images/menu.svg" alt="" class="menu-btn">
+    </nav>
+    <header>
+        <div class="header-content">
+            <h2>Explore The Colourful World</h2>
+            <div class="line"></div>
+            <h1>A WONDERFUL GIFT</h1>
+            <a href="#" class="ctn">Learn more</a>
+        </div>
+    </header> 
+
+    <!-- Events -->
+    <section class="events" id="events">
+        <div class="title">
+            <h1>Upcoming Events</h1>
+            <div class="line"></div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <img src="images/event1.jpg" alt="">
+                <h4>Everest Camp trek</h4>
+                <p>Mount Everest is still the ultimate mountaineering adventure. To stand at the pinnacle of the Earth is one of life's most rewarding experiences. As pioneers of guided ascents on Everest, Adventure Consultants is recognised as the premier guiding service with a superb reputation for enabling members of our expeditions to achieve summit aspirations</p>
+                <a href="#" class="ctn">Learn More</a>
+            </div>
+            <div class="col">
+                <img src="images/event2.jpg" alt="">
+                <h4>Walking Holidays</h4>
+                <p>A two week walking holiday in India which takes you along spice trails, into backwaters, through the Western Ghat Mountains and through the hill stations not only of Kerala but also parts of Tamil Nadu. Starting in Cochin, we transfer up to the region’s magnificent mountain range and hike in and around Munar where the coffee and spice plantations have been thriving for generations.</p>
+                <a href="#" class="ctn">Learn More</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="explore" id="explore">
+        <div class="explore-content">
+            <h1>EXPLORE THE WORLD</h1>
+            <div class="line"></div>
+            <p>To help you get started, we’ve put together a guide on how to travel the world, including everything from how to start looking into your trip to how to save money once you’re abroad.</p>
+            <br>
+            <a href="#" class="ctn">Learn More</a>
+        </div>
+    </section>
+
+    <section class="tours" id="tour">
+        <div class="row">
+            <div class="col content-col">
+                <h1>UPCOMING TOURS & DESTINATIONS</h1>
+                <div class="line"></div>
+                <p>Manali in Himachal,Mussoorie in Uttarkhand,Shimla in Himachal,,Gulmarg in Jammu & Kashmira and Auli in Uttarakhand</p>
+                <a href="#" class="ctn">Learn More</a>
+            </div>
+            <div class="col image-col">
+                <div class="image-gallery">
+                    <img src="images/img1.jpg" alt="">
+                    <img src="images/img2.jpg" alt="">
+                    <img src="images/img3.jpg" alt="">
+                    <img src="images/img4.jpg" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="footer">
+        <p>made by Jagveer Chauhan</p>
+        <p>Copyright © 2022 MR.JRC</p>
+    </section>
+
+    <script>
+        const menuBtn = document.querySelector('.menu-btn');
+        const navLinks = document.querySelector('.nav-links');
+
+        menuBtn.addEventListener('click',()=>
+        navLinks.classList.toggle('mobile-menu'))
+    </script>
+</body>
+</html>

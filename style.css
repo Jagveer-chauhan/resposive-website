@@ -277,3 +277,86 @@ li a:hover{
 .logo:hover{
     cursor: pointer;
 }
+/* explore page css */
+#explore_header{
+    width:100vw;
+    height: 90vh;
+    background-image: url("images/explorepage.jpg");
+    background-position:right;
+    background-size: cover;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+#explore_header p{
+
+    text-align: center;
+    width:80%;
+    color:whitesmoke;
+    margin: auto;
+}
+#explore_section{
+    width:90%;
+}
+#explore_section .row
+{
+    display: flex;
+    margin:20px 0px;
+}
+#explore_section .image-col{
+    display: flex;
+    width:40%;
+    justify-content: center;
+}
+#explore_section .content-col{
+    width:70%;
+    padding: 30px;
+}
+#explore_section .image-col img{
+    height: 200px;
+}
+#explore_section .content-col h1{
+    font-size: 7vmin;
+    color: #484872;
+}
+#explore_section .content-col .line{
+    margin-left: -1px;
+}
+#explore_section .content-col p{
+    padding: 0;
+    margin: 30px auto;
+}
+#explore_section .content-col .ctn{
+    margin-left: -100px;
+}
+/* everest ZZ */
+#everest_header {
+    width:100vw;
+    height: 90vh;
+    background-image: url("images/event1.jpg");
+    background-position:bottom;
+    background-size: cover;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+#everest_summary p{
+    text-align: justify;
+    width:90%;
+    margin: auto;
+}
+#holiday_header {
+    width:100vw;
+    height: 90vh;
+    background-image: url("images/event2.jpg");
+    background-position:bottom;
+    background-size: cover;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+#holiday_summary p{
+    text-align: justify;
+    width:90%;
+    margin: auto;
+}
